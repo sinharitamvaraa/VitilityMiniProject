@@ -30,3 +30,10 @@ a{
     padding:20px;
     margin:20px;
 }
+/* Media query for devices with a maximum width of 600px (typical for mobile devices) */
+@media only screen and (max-width: 600px) {
+    .container {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+  }
+  
